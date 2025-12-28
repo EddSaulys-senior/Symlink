@@ -1,7 +1,5 @@
 # Symlink Creator Master 🔗
 
-![Screenshot](https://raw.githubusercontent.com/EddSaulys-senior/Symlink/main/SLC.png)
-
 [![Delphi Version](https://img.shields.io/badge/Delphi-11%20Alexandria-blue.svg)](https://www.embarcadero.com/products/delphi)
 [![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
 [![Language](https://img.shields.io/badge/Language-Object%20Pascal-orange.svg)](https://www.embarcadero.com/products/delphi)
