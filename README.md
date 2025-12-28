@@ -1,13 +1,18 @@
 # Symlink Creator Master 🔗
+
 ![Screenshot](https://raw.githubusercontent.com/EddSaulys-senior/Symlink/main/SLC.png)
+
 [![Delphi Version](https://img.shields.io/badge/Delphi-11%20Alexandria-blue.svg)](https://www.embarcadero.com/products/delphi)
 [![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
 [![Language](https://img.shields.io/badge/Language-Object%20Pascal-orange.svg)](https://www.embarcadero.com/products/delphi)
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EddSaulys-senior/Symlink/main/SLC.png" alt="Symlink Creator Master" width="474">
+</p>
+
 Простая и эффективная утилита на Delphi 11 для быстрого создания символических ссылок (Symlinks) для файлов и папок в Windows.
 
 [![Support on Boosty](https://img.shields.io/badge/Support-Boosty-orange?style=for-the-badge&logo=rocket)](https://boosty.to/lised/donate)
-
 
 ## ✨ Особенности
 
@@ -39,6 +44,7 @@
 ## 💻 Пример кода
 
 Центральная логика создания ссылки реализована через безопасную обертку над WinAPI:
+
 ```pascal
 if not CreateSymbolicLinkW(PWideChar(SymlinkPath), PWideChar(TargetPath), Flags) then
 begin
